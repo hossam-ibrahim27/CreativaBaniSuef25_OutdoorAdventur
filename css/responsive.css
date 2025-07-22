@@ -1,0 +1,235 @@
+@media screen and (max-width: 1250px) {
+    .header {
+        left: 0;
+        width: 100%;
+    }
+
+    .tallPage-section .parent {
+        width: 100%;
+    }
+
+    .tallPage-section .content {
+        padding-left: 10%;
+    }
+
+    .events-section .row {
+        width: 95%;
+    }
+
+    .explore-section .content {
+        width: 55%;
+        left: 40%;
+    }
+
+    .destion-section {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .main-section {
+        height: 80vh;
+    }
+
+    .main-section .overlay {
+        height: 80vh;
+    }
+
+    .main-section .content h3 {
+        font-size: 60px;
+    }
+
+    span.btn {
+        padding: 15px 35px;
+    }
+
+    .main-section .content p {
+        font-size: 22px;
+    }
+
+
+    .tallPage-section .parent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .tallPage-section .content {
+        padding-left: 0;
+    }
+
+    .tallPage-section .box-imag {
+        width: 110px;
+        height: 70px;
+        margin: auto;
+    }
+
+}
+
+@media screen and (max-width: 965PX) {
+    .main-section .content h3 {
+        font-size: 55px;
+    }
+
+    .main-section .content p {
+        font-size: 20px;
+    }
+
+    span.btn {
+        padding: 12px 30px;
+    }
+}
+
+
+@media screen and (max-width: 920PX) {
+
+    ul.collapse-nav,
+    .header nav.collabse-nav {
+        position: absolute;
+        background-color: #eee;
+        left: 0;
+        top: 65px;
+        width: 100%;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .header nav.collabse-nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        width: 100%;
+    }
+
+    .header nav.collabse-nav ul li {
+        width: 100%;
+        border-bottom: 1px solid #d0cfcf;
+    }
+
+    .header nav.collabse-nav span {
+        display: none;
+    }
+
+    .header nav.collabse-nav li a {
+        color: #fb2056;
+        width: 100%;
+    }
+
+    .header nav {
+        display: none;
+    }
+
+    .collapse-button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 884PX) {
+    .main-section .content h3 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 803PX) {
+    .main-section .content h3 {
+        font-size: 45px;
+    }
+
+    .main-section .content p {
+        font-size: 20px;
+    }
+
+    span.btn {
+        padding: 10px 20px;
+    }
+
+    .destion-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+
+    .destion-section .content,
+    .destion-section .box-imgs {
+        width: 100%;
+    }
+
+    .explore-section .content {
+        width: 95%;
+        left: 20px;
+    }
+}
+
+@media screen and (max-width: 725PX) {
+    .main-section .content {
+        width: 80%;
+    }
+
+    .events-section .row {
+        width: 100%;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .events-section .col {
+        width: 80%;
+    }
+
+    .explore-section .content {
+        width: 85%;
+        left: 20px;
+    }
+}
+
+@media screen and (max-width: 400PX) {
+    .main-section .content h3 {
+        font-size: 35px;
+    }
+
+    .main-section .content p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 315PX) {
+    .main-section .content h3 {
+        font-size: 25px;
+    }
+
+    .header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    ul.collapse-nav,
+    .header nav.collabse-nav {
+        top: 130px;
+    }
+}
+
+@media screen and (max-width: 295PX) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: smaller;
+    }
+}
+
+@media screen and (max-width: 255PX) {
+    .footer {
+        font-size: 10px;
+    }
+}
